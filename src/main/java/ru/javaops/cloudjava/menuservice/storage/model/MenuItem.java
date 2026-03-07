@@ -28,7 +28,7 @@ import java.util.Objects;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "menu_item")
+@Table(name = "menu_items")
 public class MenuItem {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
